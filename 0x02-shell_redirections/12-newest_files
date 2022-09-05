@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ltc | head -10
+find / -type f -printf "\n%AD %AT %p" | head -n 10
